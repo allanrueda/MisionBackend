@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <script src="main.js" type="text/javascript"></script>
+  <title>Calculadora - Mision BackEnd</title>
+</head>
+<body>
+  <div id="container">
+    <form name="calculadora">
+      <input type="textfield" name="result" id="tbxResultado" value="" autocomplete="off">
+      <br />
+      <br />
+      <input type="button" class="gris" value="7" onclick="addValor('7');">
+      <input type="button" class="gris" value="8" onclick="addValor('8');">
+      <input type="button" class="gris" value="9" onclick="addValor('9');">
+      <input type="button" class="naranja" value="+" onclick="addValor('+');">
+      <br />
+      <input type="button" class="gris" value="4" onclick="addValor('4');">
+      <input type="button" class="gris" value="5" onclick="addValor('5');">
+      <input type="button" class="gris" value="6" onclick="addValor('6');">
+      <input type="button" class="naranja" value="-" onclick="addValor('-');">
+      <br />
+      <input type="button" class="gris" value="1" onclick="addValor('1');">
+      <input type="button" class="gris" value="2" onclick="addValor('2');">
+      <input type="button" class="gris" value="3" onclick="addValor('3');">
+      <input type="button" class="naranja" value="x" onclick="addValor('*');">
+      <br />
+      <input type="button" class="gris" value="0" onclick="addValor('0');">
+      <input type="reset" class="naranja" value="C">
+      <input type="button" class="naranja" value="=" onclick="evaluar();">
+      <input type="button" class="naranja" value="/" onclick="addValor('/');">
+      
+    </form>
+  </div>
+</body>
+</html>
