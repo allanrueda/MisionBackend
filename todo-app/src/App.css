@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #9EB4F9;
+  color: #ffffff;
+  font-family: sans-serif;
+  margin-top: 40px;;
+}
+
+.todo-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.todo-main-list
+{
+  width: 600px;
+  min-height: 500px;
+  background-color: #3A4E9C;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 2%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
