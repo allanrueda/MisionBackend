@@ -2,7 +2,7 @@
 
 ## Calculadora Básica
 El primer proyecto es una calculadora básica utilizando HTML, CSS y Javascript.
-[calculadora]("calculadora)
+[calculadora](calculadora)
 
 <img src="images/sc-calc-01.png" style="width:25%;" />
 <br />
@@ -12,6 +12,7 @@ El primer proyecto es una calculadora básica utilizando HTML, CSS y Javascript.
 
 ## Todo App
 El segundo proyecto es una aplicación de tareas utilizando React y Hooks.
+[Aplicación ToDo](todo-app)
 
 <img src="images/sc-todo-app-01.png" style="width:50%;" />
 <br />
